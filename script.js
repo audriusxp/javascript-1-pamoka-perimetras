@@ -8,7 +8,7 @@ window.onload = function() {
     ilgis = 15;
     plotis = 20;
 
-    perimetras = staciakampioPerimetras( 2*plotis+2*ilgis);
+    perimetras = staciakampioPerimetras( plotis,ilgis);
    
 
     console.log(perimetras);
