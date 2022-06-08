@@ -2,20 +2,20 @@ window.onload = function() {
     let plotis;
     let ilgis;
 
-    let plotas1;
-    let plotas2;
+    let perimetras;
+    
 
     ilgis = 15;
     plotis = 20;
 
-    plotas1 = staciakampioPlotas(plotis+ilgis);
-    plotas2 = staciakampioPlotas(15+ 4);
+    perimetras = staciakampioPerimetras( 2*plotis+2*ilgis);
+   
 
-    console.log(plotas1);
-    console.log(plotas2);
+    console.log(perimetras);
+    
 }
 
 
-function staciakampioPlotas(a, b) {
-    return a * b;
+function staciakampioPerimetras(a, b) {
+    return 2*a + 2*b;
 }
